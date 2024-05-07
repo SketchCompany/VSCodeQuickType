@@ -53,6 +53,6 @@ If you only want to install it into your local project, use this command:
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
 - this is the initial release of the Quick Type extension
 - there are no release notes yet
