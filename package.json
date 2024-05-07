@@ -3,6 +3,11 @@
   "displayName": "Quick Type Language Support - Sketch Company",
   "description": "The official Quick Type language support created and developed by the Sketch Company",
   "version": "0.0.1",
+  "publisher": "SketchCompany",
+  "repository": {
+    "url": "https://github.com/SketchCompany/VSCodeQuickType",
+    "type": "github"
+  },
   "engines": {
     "vscode": "^1.89.0"
   },
