@@ -27,6 +27,6 @@
 		"body": [
 			"v ${1:name} = ${2:value}"
         ],
-		"description": "creates a variable declaration with an example name and example value"
+		"description": "create a variable declaration with an example name and example value"
 	}
 }
