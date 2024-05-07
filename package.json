@@ -1,0 +1,36 @@
+{
+  "name": "qt-ls-sc",
+  "displayName": "Quick Type Language Support - Sketch Company",
+  "description": "The official Quick Type language support created and developed by the Sketch Company",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets", 
+    "Testing", 
+    "Visualization"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "quicktype",
+        "path": "snippets.json"
+      }
+    ],
+    "languages": [{
+      "id": "quicktype",
+      "aliases": ["Quick Type", "quicktype", "quick", "qt"],
+      "extensions": [".quick",".quicktype", ".qt"],
+      "configuration": "./language-configuration.json",
+      "icon": {"dark": "fileicon.png", "light": "fileicon.png"}
+    }],
+    "grammars": [{
+      "language": "quicktype",
+      "scopeName": "source.qt",
+      "path": "./syntaxes/quicktype.tmLanguage.json"
+    }]
+  }
+}

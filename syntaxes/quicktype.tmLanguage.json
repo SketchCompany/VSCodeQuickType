@@ -1,0 +1,78 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Quick Type",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#blockComments"
+		},
+		{
+			"include": "#docComments"
+		},
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#numbers"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.quicktype",
+				"match": "\\b(if|else|while|for|c|v|f)\\b"
+			}]
+		},
+		"variables": {
+			"patterns": [{
+				"name": "variable.quicktype",
+				"match": "[a-zA-Z]+(?:\\d+)?"
+			}]
+		},
+		"numbers": {
+			"patterns": [{
+				"name": "constant.numeric.quicktype",
+				"match": "[0-9]"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.quicktype",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.quicktype",
+					"match": "\\\\."
+				}
+			]
+		},
+		"comments":{
+			"patterns": [{
+				"name": "comment.line.double-slash.quicktype",
+				"match": "//.*$"
+			}]
+		},
+		"blockComments":{
+			"name": "comment.block.quicktype",
+			"begin": "\\/\\*",
+			"end": "\\*\\/"
+		},
+		"docComments":{
+			"name": "comment.block.documentation.quicktype",
+			"begin": "\\*\\*\\*",
+			"end": "\\*\\*\\*"
+		}
+	},
+	"scopeName": "source.qt"
+}

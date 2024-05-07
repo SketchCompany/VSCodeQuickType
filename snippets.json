@@ -1,0 +1,18 @@
+{
+    "log to console": {
+		"prefix": "log",
+		"body": [
+			"log(\"$1\")$2"
+        ],
+		"description": "logs output to the console"
+	},
+    "create function declaration": {
+		"prefix": "f",
+		"body": [
+			"f ${1:name}(${2:arg}){",
+			"   $3",
+            "}"
+        ],
+		"description": "creates a function declaration with an example name and example argument"
+	}
+}
