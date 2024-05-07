@@ -1,9 +1,6 @@
 # Change Log
+This is the changelog of the VS Code Quick Type extension. Here you will be informed about the latest changes of the extension!
 
-All notable changes to the "qt-ls-sc" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+## 1.0.0
+- this is the initial release
+- there are no changes yet

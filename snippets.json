@@ -14,5 +14,19 @@
             "}"
         ],
 		"description": "creates a function declaration with an example name and example argument"
+	},
+    "create constant": {
+		"prefix": "c",
+		"body": [
+			"c ${1:name} = ${2:value}"
+        ],
+		"description": "creates a constant declaration with an example name and example value"
+	},
+    "create variable": {
+		"prefix": "v",
+		"body": [
+			"v ${1:name} = ${2:value}"
+        ],
+		"description": "creates a variable declaration with an example name and example value"
 	}
 }
