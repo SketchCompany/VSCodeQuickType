@@ -39,12 +39,12 @@ To run Quick Type on your computer, you need to have `Node.js` and the `typescri
 After you've done these steps, you can now install our `Node.js package` by using the `node package manager`.
 We recommend, install Quick Type globally on your computer. This can be done with the following command below: 
 <br>
-`npm install -g quicktype`
+`npm install -g quicktypels`
 <br>
 
 If you only want to install it into your local project, use this command:
 <br>
-`npm install -D quicktype`
+`npm install -D quicktypels`
 <br>
 
 ## Known Issues
@@ -52,6 +52,10 @@ If you only want to install it into your local project, use this command:
 - currently none
 
 ## Release Notes
+
+### 0.0.2
+- changed npm install commands
+- new node package name "quicktypels"
 
 ### 0.0.1
 - this is the initial release of the Quick Type extension
