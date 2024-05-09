@@ -47,6 +47,8 @@ If you only want to install it into your local project, use this command:
 `npm install -D quicktypels`
 <br>
 
+You can visit the node package page at [https://www.npmjs.com/package/quicktypels](https://www.npmjs.com/package/quicktypels)
+
 ## Known Issues
 
 - currently none
