@@ -2,7 +2,7 @@
   "name": "qt-ls-sc",
   "displayName": "Quick Type Language Support - Sketch Company",
   "description": "The official Quick Type language support created and developed by the Sketch Company",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "SketchCompany",
   "repository": {
     "url": "https://github.com/SketchCompany/VSCodeQuickType",
