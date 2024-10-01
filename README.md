@@ -1,12 +1,14 @@
 # VS Code Quick Type
 This is the official VS Code extension for the official programming language "Quick Type", both of which were developed by us, the Sketch Company.
 
+< [!NOTE]
 > Quick Type is currently in development and may contain many bugs and errors. If you've got any problems or need help, you can join our [Discord Server](https://discord.gg/u94GDJycP4)
 
 ## Features
 
 Quick Type supports a short time to write something like a function, for example in javascript you would write this:
 ```
+// js
 function example(p1){
     console.log("this is an example", p1)
 }
@@ -37,7 +39,7 @@ v variable = 100 / 2
 To run Quick Type on your computer, you need to have `Node.js` and the `typescript` package already installed on your computer!
 
 After you've done these steps, you can now install our `Node.js package` by using the `node package manager`.
-We recommend, install Quick Type globally on your computer. This can be done with the following command below: 
+We recommend, installing Quick Type globally on your computer. This can be done with the following command below: 
 <br>
 `npm install -g quicktypels`
 <br>
