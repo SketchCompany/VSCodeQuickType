@@ -1,7 +1,7 @@
 # VS Code Quick Type
 This is the official VS Code extension for the official programming language "Quick Type", both of which were developed by us, the Sketch Company.
 
-< [!NOTE]
+> [!NOTE]
 > Quick Type is currently in development and may contain many bugs and errors. If you've got any problems or need help, you can join our [Discord Server](https://discord.gg/u94GDJycP4)
 
 ## Features
